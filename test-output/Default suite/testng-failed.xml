@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Practise.Login">
+      <class name="com.vtigerV2.testscripts.LoginPageTest">
         <methods>
-          <include name="loginToApp"/>
           <include name="configBS"/>
           <include name="configBC"/>
+          <include name="LoginToApp"/>
           <include name="configBM"/>
         </methods>
-      </class> <!-- Practise.Login -->
+      </class> <!-- com.vtigerV2.testscripts.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
